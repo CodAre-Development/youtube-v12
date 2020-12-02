@@ -1,0 +1,22 @@
+{
+  "name": "youtube-project",
+  "version": "1.0.0",
+  "description": "Youtube Ozel",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "ByMayFe",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.3.1",
+    "jimp": "^0.16.1",
+    "moment": "^2.27.0",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.4",
+    "quick.db": "^7.1.1",
+    "snekfetch": "^4.0.4"
+  }
+}
