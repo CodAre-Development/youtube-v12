@@ -2,8 +2,6 @@ const Discord = require('discord.js');
 
 exports.run = async(client, message, args) => {
 
-if(message.members.hasPermission("BAN_MEMBERS")) return message.reply("Yetkiniz Bulunmamaktadır!")
-
  var guild = message.guild;
  var banlayan = message.author.tag;
  if (!args[0]) return message.reply("Banlayacağım Kişiyi Etiketlemen Gerek!");
